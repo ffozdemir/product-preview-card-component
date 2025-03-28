@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Product preview card component</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="card">
+        <div class="card-image">
+          <picture>
+            <source
+              media="(min-width: 48rem)"
+              srcset="./images/image-product-desktop.jpg"
+              type="image/jpeg"
+            />
+            <img
+              src="./images/image-product-mobile.jpg"
+              alt="Perfume Gabrielle Essence Eau De Parfum"
+              loading="lazy"
+            />
+          </picture>
+        </div>
+        <div class="card-content">
+          <p class="card-category">Perfume</p>
+          <h2 class="card-title">Gabrielle Essence Eau De Parfum</h2>
+          <p class="card-description">
+            A floral, solar and voluptuous interpretation composed by Olivier
+            Polge, Perfumer-Creator for the House of CHANEL.
+          </p>
+          <div class="card-price-tag">
+            <p class="card-price">$149.99</p>
+            <p class="card-price-discounted">$169.99</p>
+          </div>
+          <button class="card-button">
+            <img src="/images/icon-cart.svg" alt="cart icon" /> Add to Cart
+          </button>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
