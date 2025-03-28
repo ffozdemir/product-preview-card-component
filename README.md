@@ -37,7 +37,7 @@ Mobile Device
 ### Links
 
 - [Solution URL](https://github.com/ffozdemir/product-preview-card-component)
-- [Live Site URL](https://yourusername.github.io/product-preview-card-component)
+- [Live Site URL](https://deft-pie-9880c3.netlify.app)
 
 ## My Process
 
